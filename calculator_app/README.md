@@ -1,16 +1,30 @@
-# calculator_app
+<!-- Calculator Flutter App -->
 
-A new Flutter project.
+<!-- A simple calculator app built using Flutter. This app allows you to perform basic arithmetic calculations. -->
 
-## Getting Started
+# Calculator Flutter App
 
-This project is a starting point for a Flutter application.
+A simple calculator app built using Flutter. This app allows you to perform basic arithmetic calculations.
 
-A few resources to get you started if this is your first Flutter project:
+## Features
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Perform addition, subtraction, multiplication, and division.
+- Clear the input and result fields.
+- Evaluate complex mathematical expressions.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Dependencies
+
+To use this app, you need to add the following dependency to your `pubspec.yaml` file:
+
+```yaml
+dependencies:
+  math_expressions: ^2.4.0
+```
+The `math_expressions` package is used to evaluate mathematical expressions entered by the user.
+
+## How to Use
+- Launch the app on your device.
+- Enter numbers and mathematical operators using the on-screen buttons.
+- The input field shows your entered expression.
+- Press the "=" button to calculate the result.
+- Press the "C" button to clear the input and result fields.
