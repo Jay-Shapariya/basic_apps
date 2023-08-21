@@ -1,16 +1,33 @@
-# covid19
+# COVID-19 Flutter App
 
-A new Flutter project.
+A Flutter app that provides COVID-19 statistics using data from external APIs. This app uses various libraries to visualize and display COVID-19 data globally and by country.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- Display global COVID-19 statistics.
+- Show COVID-19 statistics for specific countries.
+- Visualize data with pie charts.
+- Animated text effects for a modern look.
+- Loading animations using Flutter Spinkit and Shimmer.
 
-A few resources to get you started if this is your first Flutter project:
+## Dependencies
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+To use this app, you need to add the following dependencies to your `pubspec.yaml` file:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```yaml
+dependencies:
+  http: ^1.1.0
+  animated_text_kit: ^4.2.1
+  pie_chart: ^5.1.0
+  flutter_spinkit: ^5.1.0
+  shimmer: ^2.0.0
+```
+
+## API Endpoints
+
+This app uses the following API endpoints to fetch COVID-19 data:
+
+- Global statistics: https://disease.sh/v3/covid-19/all
+- Country-specific statistics: https://disease.sh/v3/covid-19/countries
+  
+To integrate these APIs into your app, you can use the http package to make HTTP requests and fetch data.
