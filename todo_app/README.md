@@ -1,6 +1,6 @@
 # Basic Todo App
 
-A simple Todo app built using [technology/library name]. This app allows you to manage your tasks by adding and deleting items from your todo list.
+A simple Todo app built using Flutter. This app allows you to manage your tasks by adding and deleting items from your todo list.
 
 ## Features
 
